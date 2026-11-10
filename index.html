@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#151613" />
+  <meta name="description" content="Sohaib Al-Qutaibi — an architectural and interior design portfolio exploring the art of considered spaces." />
+  <meta property="og:title" content="Sohaib Al-Qutaibi | Interior & Architectural Design" />
+  <meta property="og:description" content="Thoughtful spaces. Timeless impressions." />
+  <meta property="og:type" content="website" />
+  <title>Sohaib Al-Qutaibi — Interior & Architectural Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="pros.css" />
+  <script defer src="pro.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home" aria-label="Sohaib Al-Qutaibi, back to home">
+      <span class="brand-mark">SQ<span class="brand-dot">.</span></span>
+      <span class="brand-text">SOHAIB AL-QUTAIBI <small>ARCHITECTURE & INTERIORS</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#work">Selected work</a>
+      <a class="nav-link" href="#studio">Studio</a>
+      <a class="nav-link" href="#expertise">Expertise</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="header-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation" inert>
+    <a href="#home"><span>01</span> Home</a>
+    <a href="#work"><span>02</span> Selected work</a>
+    <a href="#studio"><span>03</span> Studio</a>
+    <a href="#expertise"><span>04</span> Expertise</a>
+    <a href="#contact"><span>05</span> Contact</a>
+    <p>THE ART OF CONSIDERED SPACES</p>
+  </nav>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="heroHeading">
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-rail"><span>INDEPENDENT DESIGN PORTFOLIO</span><span>EST. IN CURIOSITY</span></div>
+      <div class="hero-content container">
+        <p class="eyebrow eyebrow-light intro-reveal"><span class="line-dot"></span> INTERIOR & ARCHITECTURAL DESIGN</p>
+        <h1 class="intro-reveal" id="heroHeading">The art of<br><em>considered</em><br>spaces<span class="gold-period">.</span></h1>
+        <div class="hero-bottom intro-reveal">
+          <p>Spaces shaped by purpose, enriched by detail, and made to feel distinctly human.</p>
+          <a class="circle-link" href="#work" aria-label="Explore selected projects"><span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+      <div class="hero-footer container">
+        <p><span class="tiny-square"></span> AN APPROACH TO TIMELESS DESIGN</p>
+        <a href="#studio">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a>
+        <p class="hero-index">01 <span>/</span> 05</p>
+      </div>
+    </section>
+
+    <section class="intro-section section-pad" id="studio" aria-labelledby="introHeading">
+      <div class="container intro-layout">
+        <div class="section-index reveal"><span>01 / THE PHILOSOPHY</span><span class="hairline"></span></div>
+        <div class="intro-copy reveal">
+          <p class="micro-overline">AN INTRODUCTION</p>
+          <h2 id="introHeading">Design is not only<br>what we <em>see.</em><br>It's what we <em>feel.</em></h2>
+          <div class="intro-subrow">
+            <p>Rooted in an appreciation for proportion, materiality, and atmosphere, my approach brings together thoughtful function and an enduring aesthetic.</p>
+            <a class="underlined-link" href="#expertise">Discover my approach <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="fine-rule container"></div>
+    </section>
+
+    <section class="work-section section-pad" id="work" aria-labelledby="workHeading">
+      <div class="container">
+        <div class="work-heading reveal">
+          <div><p class="micro-overline"><span class="gold-star">✳</span> CURATED PORTFOLIO</p><h2 id="workHeading">Selected <em>work</em></h2></div>
+          <p>An exploration of form, texture, and the spaces in between. <span class="example-tag">Sample imagery & concepts</span></p>
+        </div>
+        <div class="projects-grid">
+          <button class="project project-featured reveal" type="button" data-project="0" aria-label="Explore Maison No. 01 sample project">
+            <span class="project-image img-one" role="img" aria-label="Warm contemporary interior with rich materials"></span>
+            <span class="project-overlay"><span class="project-meta">RESIDENTIAL / CONCEPT 01</span><span class="project-arrow" aria-hidden="true">↗</span></span>
+            <span class="project-title"><strong>Maison No. 01</strong><small>Contemporary residence</small></span>
+          </button>
+          <button class="project project-secondary reveal" type="button" data-project="1" aria-label="Explore The Quiet Form sample project">
+            <span class="project-image img-two" role="img" aria-label="Minimal light-filled architectural interior"></span>
+            <span class="project-overlay"><span class="project-meta">INTERIORS / CONCEPT 02</span><span class="project-arrow" aria-hidden="true">↗</span></span>
+            <span class="project-title"><strong>The Quiet Form</strong><small>Interior exploration</small></span>
+          </button>
+          <button class="project project-third reveal" type="button" data-project="2" aria-label="Explore A Study in Light sample project">
+            <span class="project-image img-three" role="img" aria-label="Textural architectural interior"></span>
+            <span class="project-overlay"><span class="project-meta">SPATIAL DESIGN / CONCEPT 03</span><span class="project-arrow" aria-hidden="true">↗</span></span>
+            <span class="project-title"><strong>A Study in Light</strong><small>Material & atmosphere</small></span>
+          </button>
+        </div>
+        <div class="work-note reveal"><span>SELECTED PROJECTS / PREVIEW</span><span>Replace these samples with Sohaib's actual projects before publishing.</span></div>
+      </div>
+    </section>
+
+    <section class="quote-strip" aria-label="Design philosophy quote">
+      <div class="quote-photo" aria-hidden="true"></div>
+      <div class="container quote-inner reveal"><p>“The details are not the details.<br><em>They make the design.</em>”</p><span>— CHARLES EAMES</span></div>
+    </section>
+
+    <section class="expertise-section section-pad" id="expertise" aria-labelledby="expertiseHeading">
+      <div class="container expertise-layout">
+        <div class="expertise-intro reveal">
+          <p class="micro-overline">02 / WHAT I DO</p>
+          <h2 id="expertiseHeading">Thoughtful<br>from <em>concept</em><br>to detail.</h2>
+          <p>An intentional design process, tailored to the character of every space.</p>
+        </div>
+        <div class="service-list reveal">
+          <a href="#contact"><span class="service-num">01</span><span class="service-name">Interior Design</span><span class="service-icon">↗</span></a>
+          <a href="#contact"><span class="service-num">02</span><span class="service-name">Architectural Design</span><span class="service-icon">↗</span></a>
+          <a href="#contact"><span class="service-num">03</span><span class="service-name">3D Visualization</span><span class="service-icon">↗</span></a>
+          <a href="#contact"><span class="service-num">04</span><span class="service-name">Materials & Styling</span><span class="service-icon">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contactHeading">
+      <div class="container contact-inner reveal">
+        <p class="eyebrow eyebrow-light"><span class="line-dot"></span> YOUR NEXT PROJECT BEGINS HERE</p>
+        <h2 id="contactHeading">Let's make<br><em>space</em> for ideas.</h2>
+        <div class="contact-footer">
+          <p>For thoughtful collaborations, new opportunities, and conversations about design.</p>
+          <button type="button" class="contact-button" id="openContact">Start a conversation <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a href="#home" class="footer-brand">SQ<span>.</span></a><p>SOHAIB AL-QUTAIBI<br><small>INTERIOR & ARCHITECTURAL DESIGN</small></p><p>© <span id="year">2026</span> SOHAIB AL-QUTAIBI</p><a href="#home" class="top-link">BACK TO TOP ↑</a></div></footer>
+
+  <dialog class="modal" id="projectModal" aria-labelledby="modalProjectTitle">
+    <button type="button" class="modal-close" data-close aria-label="Close project details">✕</button>
+    <div class="modal-image" id="modalProjectImage"></div>
+    <div class="modal-body"><p class="micro-overline" id="modalProjectType">CONCEPT PREVIEW</p><h2 id="modalProjectTitle"></h2><p id="modalProjectCopy"></p><p class="modal-disclaimer">This is a demonstration concept, not a verified project by Sohaib. Replace it with original project materials before launch.</p><button class="text-button" type="button" data-close>Close preview ↗</button></div>
+  </dialog>
+
+  <dialog class="modal contact-modal" id="contactModal" aria-labelledby="contactDialogHeading">
+    <button type="button" class="modal-close" data-close aria-label="Close contact form">✕</button>
+    <div class="contact-dialog-body"><p class="micro-overline">GET IN TOUCH</p><h2 id="contactDialogHeading">A great space starts<br>with a <em>conversation.</em></h2><p>Draft your message below and copy it. Add Sohaib's verified email or social links before publishing to enable direct sending.</p>
+      <form id="contactForm"><label for="contactName">YOUR NAME</label><input required id="contactName" type="text" autocomplete="name" placeholder="Your name" maxlength="120" /><label for="contactEmail">YOUR EMAIL</label><input required id="contactEmail" type="email" autocomplete="email" placeholder="name@example.com" maxlength="180" /><label for="contactMessage">YOUR MESSAGE</label><textarea required id="contactMessage" placeholder="Tell me a little about your project..." rows="4" maxlength="3000"></textarea><button class="copy-message" type="submit">Copy message <span aria-hidden="true">↗</span></button><p id="contactStatus" class="form-status" role="status" aria-live="polite"></p></form>
+    </div>
+  </dialog>
+</body>
+</html>
